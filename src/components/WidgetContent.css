@@ -1,0 +1,38 @@
+.widget__contents {
+  display: flex;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.widget__content {
+  margin: 5px;
+  display: flex;
+  padding: 5px;
+  background-color: white;
+  border-radius: 3px;
+  font-family: 'Dosis';
+}
+
+.widget__content:hover {
+  background: rgb(230, 182, 182);
+}
+
+.widget__content > img {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.widget__contentTitle {
+  margin-left: 10px;
+}
+
+.widget__contentTitle > h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(70, 68, 68);
+}
+
+.widget__contentTitle > p {
+  color: gray;
+  font-size: 16px;
+}

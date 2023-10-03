@@ -1,0 +1,306 @@
+.qHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: white;
+  background-image: url(http://localhost:3000/header_background.png);
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.qHeader__logo>img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.qHeader__icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* margin-top: 1px; */
+}
+
+.qHeader__icons>.active>.MuiSvgIcon-root {
+  margin-top: 3px;
+  fill: black;
+}
+
+.qHeader__icon > .MuiSvgIcon-root {
+  font-size: xx-large;
+  background-color: transparent;
+  padding: 5px 20px;
+}
+
+.qHeader__icon > .MuiSvgIcon-root:hover {
+  /* background-color: rgba(233, 233, 233, 0.5); */
+  background-image: url(http://localhost:3000/pixel_background.png);
+  border-radius: 10px;
+  /* color: #2d57d6; */
+}
+
+.qHeader__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.qHeader__input > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(49, 49, 49);
+}
+
+.qHeader__input>.MuiSvgIcon-root {
+  color: black;
+}
+
+.qHeader__avatar {
+  cursor: pointer;
+  margin-right: 0px;
+}
+
+.qHeader__avatar:hover {
+  background-color: rgba(74, 2, 2, 0.5);
+  border-radius: 19px;
+}
+
+.qHeader__logout {
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: xx-large;
+  /* background-color: white; */
+  padding: 5px 20px;
+}
+
+.qHeader__logout>img {
+  height: 27px;
+  margin-top: 6px;
+}
+
+.qHeader__logout:hover {
+  /* background-color: rgba(233, 233, 233, 0.5); */
+  background-image: url(http://localhost:3000/pixel_background.png);
+  border-radius: 10px;
+  color: #2d57d6;
+}
+
+.qHeader__Rem {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.qHeader__Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.qHeader__Rem>.MuiSvgIcon-root:hover {
+  color: #cdc8c8;
+}
+
+.qHeader__Rem > .MuiButton-root {
+  background-color: rgb(39, 84, 221);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-color: rgb(98, 98, 98);
+  text-transform: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Dosis';
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.qHeader__Rem > .MuiButton-root:hover {
+  background-color: #1201F5;
+}
+
+.modal__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.modal__title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal__title > h5:hover {
+  color: #b92b27;
+}
+
+.modal__info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.modal__info > p {
+  margin-left: 10px;
+  font-family: 'Dosis';
+  font-size: x-large;
+  color: gray;
+}
+
+.modal__info > .modal__scope {
+  display: flex;
+  align-items: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal__Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+
+.modal__Field > .MuiInput-root {
+  font-family: 'Dosis';
+  font-size: 20px;
+}
+
+
+.modal__Field > .modal__fieldLink {
+  color: gray;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal__Field > .modal__fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.modal__Field > .modal__fieldLink > textarea {
+  flex: 1;
+  border: 1px solid lightgray;
+  outline: none;
+  font-family: 'Dosis';
+  font-size: 16px;
+
+  margin-top: 20px;
+}
+
+.modal__buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: -20px;
+}
+
+.modal_buttons>input {
+  margin-left: 20px;
+}
+
+
+.modal__buttons > .cancle {
+  background-color: rgb(39, 84, 221);
+  color: white;
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.modal__buttons > .cancle:hover {
+  background-color: #1201F5;
+}
+
+.modal__buttons > .add {
+  background-color: rgb(39, 84, 221);
+  color: white;
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.modal__buttons > .add:hover {
+  background-color: #1201F5;
+}
+
+
+.progress {
+  border: none;
+}
+
+.post_username {
+  font-size: 1px;
+}
+
+/* 
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+} */
